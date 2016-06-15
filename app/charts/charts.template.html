@@ -1,0 +1,54 @@
+<div class="row">
+    <div class="col-lg-6 col-sm-12 ng-scope">
+        <div class="panel panel-default">
+            <div class="panel-heading">Sales Amount</div>
+            <div class="panel-body">
+                <div class="chart-container">
+                    <canvas id="base" class="chart-base" chart-type="$ctrl.type" chart-colours="$ctrl.colours"
+                            chart-data="$ctrl.data" chart-labels="$ctrl.labels" chart-legend="true" chart-hover="$ctrl.onHover">
+                    </canvas>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <button type="button" class="btn btn-primary" ng-click="$ctrl.toggle()">Toggle</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-sm-12 ng-scope">
+        <div class="panel panel-default">
+            <div class="panel-heading">Sales Count</div>
+            <div class="panel-body">
+                <div class="chart-container">
+                    <canvas id="polar-area" class="chart chart-polar-area" chart-colours="$ctrl.colours"
+                            chart-data="$ctrl.counts" chart-labels="$ctrl.labels" chart-legend="true" chart-hover="$ctrl.onHover">
+                    </canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-lg-6 col-sm-12 ng-scope">
+        <div class="panel panel-default">
+            <div class="panel-heading">Results</div>
+            <div class="panel-body">
+                <div>Provider: <code ng-bind="$ctrl.result.name"></code></div>
+                <ul>
+                    <li>Policies: <code ng-bind="$ctrl.result.count"></code></li>
+                    <li>Amount: <code ng-bind="$ctrl.result.provider"></code></li>
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <code>{{ $ctrl.result.total }}</code>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
