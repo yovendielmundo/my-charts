@@ -1,0 +1,27 @@
+[
+    {
+        "_id" : "Qatar",
+        "amount" : 1073939,
+        "count" : 6
+    },
+    {
+        "_id" : "Oman",
+        "amount" : 7597940,
+        "count" : 29
+    },
+    {
+        "_id" : "Union",
+        "amount" : 8463558,
+        "count" : 34
+    },
+    {
+        "_id" : "Aman",
+        "amount" : 3048700,
+        "count" : 16
+    },
+    {
+        "_id" : "Noor takaful",
+        "amount" : 1625500,
+        "count" : 4
+    }
+]

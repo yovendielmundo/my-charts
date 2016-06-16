@@ -1,6 +1,7 @@
 'use strict';
 
-// Define the `phoneDetail` module
+// Define the `charts` module
 angular.module('charts', [
-  'chart.js'
+    'core.quote',
+    'chart.js'
 ]);

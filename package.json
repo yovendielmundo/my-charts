@@ -1,9 +1,9 @@
 {
-  "name": "angular-phonecat",
+  "name": "my-charts",
   "private": true,
   "version": "0.0.0",
-  "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "description": "An example for Charts.js",
+  "repository": "https://github.com/yovendielmundo/my-charts",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
@@ -20,7 +20,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a 192.168.1.136 -p 8000 -c-1 ./app",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",

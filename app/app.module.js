@@ -1,7 +1,7 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
+// Define the `myChartsApp` module
+angular.module('myChartsApp', [
   'ngRoute',
   'core',
   'charts'

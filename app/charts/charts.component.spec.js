@@ -15,7 +15,7 @@ describe('charts', function() {
 
     beforeEach(inject(function($componentController, _$httpBackend_, $routeParams) {
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('phones/xyz.json').respond(xyzPhoneData);
+      $httpBackend.expectGET('data/quotes/xyz.json').respond(xyzPhoneData);
 
       $routeParams.phoneId = 'xyz';
 

@@ -1,12 +1,12 @@
 'use strict';
 
-describe('Phone', function() {
+describe('Quote', function() {
   var $httpBackend;
-  var Phone;
-  var phonesData = [
-    {name: 'Phone X'},
-    {name: 'Phone Y'},
-    {name: 'Phone Z'}
+  var Quote;
+  var quotesData = [
+    {name: 'quote X'},
+    {name: 'quote Y'},
+    {name: 'quote Z'}
   ];
 
   // Add a custom equality tester before each test
@@ -15,14 +15,14 @@ describe('Phone', function() {
   });
 
   // Load the module that contains the `Phone` service before each test
-  beforeEach(module('core.phone'));
+  beforeEach(module('core.quote'));
 
   // Instantiate the service and "train" `$httpBackend` before each test
-  beforeEach(inject(function(_$httpBackend_, _Phone_) {
+  beforeEach(inject(function(_$httpBackend_, _Quote_) {
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('phones/phones.json').respond(phonesData);
+    $httpBackend.expectGET('data/quotes/quotes.json').respond(quotesData);
 
-    Phone = _Phone_;
+    Quote = _Quote_;
   }));
 
   // Verify that there are no outstanding expectations or requests after each test
@@ -31,13 +31,13 @@ describe('Phone', function() {
     $httpBackend.verifyNoOutstandingRequest();
   });
 
-  it('should fetch the phones data from `/phones/phones.json`', function() {
-    var phones = Phone.query();
+  it('should fetch the phones data from `/data/quote/quote.json`', function() {
+    var quotes = Quote.query();
 
-    expect(phones).toEqual([]);
+    expect(quotes).toEqual([]);
 
     $httpBackend.flush();
-    expect(phones).toEqual(phonesData);
+    expect(quotes).toEqual(quotesData);
   });
 
 });

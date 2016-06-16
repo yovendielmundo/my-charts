@@ -1,0 +1,47 @@
+[
+  {
+    "_id" : "qatarplatinum",
+    "amount" : 574775,
+    "count" : 2
+  },
+  {
+    "_id" : "qatarpremium",
+    "amount" : 499164,
+    "count" : 4
+  },
+  {
+    "_id" : "uniongold",
+    "amount" : 6778457,
+    "count" : 27
+  },
+  {
+    "_id" : "noortakafulagency",
+    "amount" : 408200,
+    "count" : 1
+  },
+  {
+    "_id" : "omangold",
+    "amount" : 6629740,
+    "count" : 22
+  },
+  {
+    "_id" : "omansilver",
+    "amount" : 968200,
+    "count" : 7
+  },
+  {
+    "_id" : "unionsilver",
+    "amount" : 1685101,
+    "count" : 7
+  },
+  {
+    "_id" : "aman",
+    "amount" : 3048700,
+    "count" : 16
+  },
+  {
+    "_id" : "noortakafulcomprehensive",
+    "amount" : 1217300,
+    "count" : 3
+  }
+]
