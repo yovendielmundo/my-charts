@@ -1,0 +1,47 @@
+[
+  {
+    "_id" : "Qatar platinum",
+    "amount" : 574775,
+    "count" : 2
+  },
+  {
+    "_id" : "Qatar premium",
+    "amount" : 499164,
+    "count" : 4
+  },
+  {
+    "_id" : "Union gold",
+    "amount" : 7035119,
+    "count" : 28
+  },
+  {
+    "_id" : "Noor takaful agency",
+    "amount" : 408200,
+    "count" : 1
+  },
+  {
+    "_id" : "Oman gold",
+    "amount" : 7804913,
+    "count" : 26
+  },
+  {
+    "_id" : "Oman silver",
+    "amount" : 1339067,
+    "count" : 9
+  },
+  {
+    "_id" : "Union silver",
+    "amount" : 1685101,
+    "count" : 7
+  },
+  {
+    "_id" : "Aman",
+    "amount" : 3692500,
+    "count" : 19
+  },
+  {
+    "_id" : "Noor takaful comprehensive",
+    "amount" : 1217300,
+    "count" : 3
+  }
+]

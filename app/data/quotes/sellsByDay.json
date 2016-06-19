@@ -1,0 +1,218 @@
+[
+  {
+    "_id" : 122,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 1,
+    "amount" : 1638700,
+    "count" : 4
+  },
+  {
+    "_id" : 125,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 4,
+    "amount" : 175000,
+    "count" : 1
+  },
+  {
+    "_id" : 137,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 16,
+    "amount" : 440350,
+    "count" : 2
+  },
+  {
+    "_id" : 143,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 22,
+    "amount" : 144200,
+    "count" : 1
+  },
+  {
+    "_id" : 144,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 23,
+    "amount" : 164866,
+    "count" : 1
+  },
+  {
+    "_id" : 147,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 26,
+    "amount" : 408200,
+    "count" : 1
+  },
+  {
+    "_id" : 150,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 29,
+    "amount" : 797951,
+    "count" : 3
+  },
+  {
+    "_id" : 151,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 30,
+    "amount" : 272400,
+    "count" : 1
+  },
+  {
+    "_id" : 152,
+    "year" : 2016,
+    "month" : 5,
+    "day" : 31,
+    "amount" : 720688,
+    "count" : 4
+  },
+  {
+    "_id" : 153,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 1,
+    "amount" : 321000,
+    "count" : 2
+  },
+  {
+    "_id" : 154,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 2,
+    "amount" : 536550,
+    "count" : 3
+  },
+  {
+    "_id" : 156,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 4,
+    "amount" : 1877219,
+    "count" : 5
+  },
+  {
+    "_id" : 157,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 5,
+    "amount" : 569990,
+    "count" : 3
+  },
+  {
+    "_id" : 158,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 6,
+    "amount" : 1018666,
+    "count" : 3
+  },
+  {
+    "_id" : 159,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 7,
+    "amount" : 781078,
+    "count" : 4
+  },
+  {
+    "_id" : 160,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 8,
+    "amount" : 1602728,
+    "count" : 6
+  },
+  {
+    "_id" : 161,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 9,
+    "amount" : 538741,
+    "count" : 3
+  },
+  {
+    "_id" : 162,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 10,
+    "amount" : 176500,
+    "count" : 1
+  },
+  {
+    "_id" : 163,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 11,
+    "amount" : 797928,
+    "count" : 5
+  },
+  {
+    "_id" : 164,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 12,
+    "amount" : 1259413,
+    "count" : 9
+  },
+  {
+    "_id" : 165,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 13,
+    "amount" : 2155867,
+    "count" : 8
+  },
+  {
+    "_id" : 166,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 14,
+    "amount" : 2759650,
+    "count" : 10
+  },
+  {
+    "_id" : 167,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 15,
+    "amount" : 2049952,
+    "count" : 8
+  },
+  {
+    "_id" : 168,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 16,
+    "amount" : 1125438,
+    "count" : 3
+  },
+  {
+    "_id" : 169,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 17,
+    "amount" : 816935,
+    "count" : 3
+  },
+  {
+    "_id" : 170,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 18,
+    "amount" : 1106129,
+    "count" : 5
+  },
+  {
+    "_id" : 171,
+    "year" : 2016,
+    "month" : 6,
+    "day" : 19,
+    "amount" : 181000,
+    "count" : 1
+  }
+]

@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en" ng-app="myChartsApp">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Google Phone Gallery</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <title>My Charts</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.css"/>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
@@ -20,10 +22,12 @@
     <script src="core/quote/quote.service.js"></script>
     <script src="charts/charts.module.js"></script>
     <script src="charts/charts.component.js"></script>
-  </head>
-  <body>
+</head>
+<body>
 
-    <div ng-view></div>
+    <div class="view-container">
+        <div ng-view class="view-frame"></div>
+    </div>
 
-  </body>
+</body>
 </html>
